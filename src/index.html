@@ -9,28 +9,25 @@
 <body>
 
     <!--================= HEADER ==============-->
-    <header class="bg-white shadow-lg">
-        <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 h-16 md:h-24 flex justify-between items-center gap-2">
+    <header class="bg-gradient-to-r from-pink-600 via-red-400 to-yellow-300 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 h-12 md:h-18 flex justify-between items-center gap-2 ">
 
-            <!-- Logo text -->
+               <!-- Logo text -->
+       
             <a href="#">
-                <h1 class="text-2xl font-bold text-blue-700">RN </h1>
+                <h1 class="text-2xl font-bold text-white">LANDING</h1>
             </a>
 
             <!-- Desktop Navbar -->
             <nav class="hidden lg:flex space-x-2">
-                <a href="#" class="text-md font-semibold px-4 py-2 rounded-md hover:bg-gray-100 hover:underline">H</a>
-                <a href="#" class="text-md font-semibold px-4 py-2 rounded-md hover:bg-gray-100 hover:underline">A</a>
-                <a href="#" class="text-md font-semibold px-4 py-2 rounded-md hover:bg-gray-100 hover:underline">s</a>
-                <a href="#" class="text-md font-semibold px-4 py-2 rounded-md hover:bg-gray-100 hover:underline">C</a>
-                <a href="#" class="text-md font-semibold px-4 py-2 rounded-md hover:bg-gray-100 hover:underline">C</a>   
-            </nav>
+                <a href="#" class="text-md font-extrabold px-4 py-2 rounded-md hover:bg-gray-100 hover:underline">Active</a>
+                <a href="#" class="text-md font-semibold px-4 py-2 rounded-md hover:bg-gray-100 hover:underline">link</a>
+                <a href="#" class="text-md font-semibold px-4 py-2 rounded-md hover:bg-gray-100 hover:underline">link</a>   
+              <button class="bg-blue-700 text-white px-6 py-3 rounded-2xl hover:bg-blue-800 font-semibold">
+                Action
+              </button>
 
-            <!-- Search btn -->
-            <div class="hidden lg:flex gap-4">
-                <input type="text" placeholder="Search..." class="border rounded-xl bg-gray-200 px-4 py-2 text-md hover:border-blue-600 transition">
-                <button type="button" class="border text-white rounded-xl font semibold bg-blue-700 hover:bg-blue-800 px-4 py-2 ">Search</button>
-            </div>
+            </nav>
 
             <!-- Mobile Menu Btn -->
             <button type="button" id="mobilebtn" class="lg:hidden px-4 py-2 border rounded-xl text-md font-semibold bg-blue-500 hover:bg-blue-700">Menu</button>
@@ -50,134 +47,252 @@
                 class="w-full border text-white rounded-xl font semibold bg-blue-700 hover:bg-blue-800 px-4 py-2 mb-2 text-lg">Search</button>
         </div>
     </header>
+    <hr class="text-white font-normal">
     <main>
 
     <!--================= HERO SECTION ==============-->
-    <section class="py-40">
+    <section class="relative bg-gradient-to-r from-pink-600 via-red-400 to-yellow-300 py-20 pb-60">
         <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-6">
             
           <!-- hero text -->
-          <div class="md:w-1/2 text-center md:text-left">
-             <h1 class="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">Web</h1>
-             <p class="text-base md:text-lg mb-4 text-gray-500">Lorem</p>
-             <button class="inline-block border rounded-lg px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white transition">c</button>
+          <div class="md:w-1/2 text-center md:text-left text-white">
+             <h5 class="mb-2">WHAT BUSSINESS ARE YOU?</h5>
+             <h1 class="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">Main Hero Message to sell yourself!</h1>
+             <p class="text-base md:text-xl mb-4">Sub-hero message, not too long and not too <br> short. Make it just right!</p>
+             <button class="inline-block border rounded-full px-8 py-4 font-bold bg-white text-black transition mt-8">Subscribe</button>
           </div>
 
           <!-- hero photo -->
-          <div class="md:w-1/2 flex justify-center items-center mt-6 md:mt-0">
-            <img src="/photo/work.jpg" alt="work photo" class="w-full h-auto max-w-md border rounded-md object-cover">
+          <div class="md:w-1/2 flex items-center mt-6 md:mt-0">
+            <img src="/photo/hero.png" alt="work photo" class="w-full h-auto max-w-xl border-none rounded-md object-cover">
           </div>
          </div>
-       </section>
+
+        <!-- SVG -->
+        <svg class="absolute bottom-0 left-0 w-full" viewBox="0 0 1440 320" preserveAspectRatio="none">
+            <path fill="#ffffff" fill-opacity="1"
+                d="M0,224L48,197.3C96,171,192,117,288,117.3C384,117,480,171,576,176C672,181,768,139,864,128C960,117,1056,139,1152,154.7C1248,171,1344,181,1392,186.7L1440,192L1440,320L0,320Z" />
+        </svg>
+
+    </section>
+
+       <!--================= ABOUT SECTION ==============-->
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-24">
+            <h1 class="text-4xl md:text-5xl mb-8 font-bold text-red-800 text-center">Title</h1>
+            <div class="flex flex-col md:flex-row items-center gap-6">
+                <!-- hero text -->
+                <div class="md:w-1/2 text-center md:text-left">
+                
+                    <h1 class="text-2xl md:text-3xl font-bold mb-6 leading-tight">Lorem ipsum dolor sit amet.</h1>
+                    <p class="text-gray-600 text-base md:text-md mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dicta sed
+                        facere!</p>
+                    <p class="text-gray-600">Images form: <a href="#" class="text-gray-600 underline">Undraw-Co</a></p>
+                </div>
+                
+                <!-- hero photo -->
+                <div class="md:w-1/2 flex items-center justify-center mt-6 md:mt-0">
+                    <img src="/photo/hero.png" alt="work photo" class="w-[60%] h-[60%] max-w-xl border-none rounded-md object-cover">
+                </div>
+            </div>
+         
+
+        </div>
        
        <!--================= SERVICE SECTION ==============-->
        <section class="py-16">
          <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
-            <h1 class="text-4xl md:text-5xl mb-8 font-bold text-red-800 text-center">O</h1>
+            <h1 class="text-4xl md:text-5xl mb-8 font-bold text-red-800 text-center">Service</h1>
+           
           <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             
             <!-- service card 1 -->
             <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition">   
                 
-                <div class="text-blue-600 text-4xl mb-4">💻</div>
-            
-                <h3 class="text-xl font-semibold mb-2">
-                    Web
+                <h3 class="text-xl font-bold mb-2">
+                   Lorem ipsum dolor sit.
                 </h3>
             
                 <p class="text-gray-600 mb-4">
-                    We 
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, excepturi exercitationem dolorum mollitia at qui?
                 </p>
             
-                <a href="#" class="text-blue-600 font-semibold hover:underline">
-                    Learn
-                </a>
+               <button class="bg-gradient-to-r from-pink-600 via-red-400 to-yellow-300 font-bold px-6 py-3 border rounded-full text-white mt-8 hover:underline">Action</button>
             </div>
 
             <!-- service card 2 -->
             <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition">
-                <div class="text-blue-600 text-4xl mb-4">💻</div>
-            
-                <h3 class="text-xl font-semibold mb-2">
-                    Web 
+                <h3 class="text-xl font-bold mb-2">
+                    Lorem ipsum dolor sit.
                 </h3>
-            
+                
                 <p class="text-gray-600 mb-4">
-                    We 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, excepturi exercitationem dolorum mollitia at qui?
                 </p>
-            
-                <a href="#" class="text-blue-600 font-semibold hover:underline">
-                    Learn More →
-                </a>
+                
+            <div class="text-center">
+                <button
+                    class="bg-gradient-to-r from-pink-600 via-red-400 to-yellow-300 px-6 py-3 border rounded-full text-white text-bold mt-8 hover:underline">Action</button>
+            </div>
             </div>
 
             <!-- service card 3 -->
             <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition">
-                <div class="text-blue-600 text-4xl mb-4">💻</div>
-            
-                <h3 class="text-xl font-semibold mb-2">
-                    Web 
+                <h3 class="text-xl font-bold mb-2">
+                    Lorem ipsum dolor sit.
                 </h3>
             
                 <p class="text-gray-600 mb-4">
-                    We 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, excepturi exercitationem dolorum mollitia at
+                    qui?
                 </p>
             
-                <a href="#" class="text-blue-600 font-semibold hover:underline">
-                    Learn 
-                </a>
+               <div class="text-right">
+                <button
+                    class="bg-gradient-to-r from-pink-600 via-red-400 to-yellow-300 px-6 py-3 border font-bold rounded-full text-white mt-8 hover:underline">Action</button>
+               </div>
             </div>
-
-            <!-- service card 4 -->
-            <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition">
-                <div class="text-blue-600 text-4xl mb-4">💻</div>
-            
-                <h3 class="text-xl font-semibold mb-2">
-                    Web 
-                </h3>
-            
-                <p class="text-gray-600 mb-4">
-                    We
-                </p>
-            
-                <a href="#" class="text-blue-600 font-semibold hover:underline">
-                    Learn
-                </a>
             </div>
           </div>
         </section>
 
-        <!--================= CONTACT SECTION ==============-->
-        <section py="16">
+        <!--================= PRICING SECTION ==============-->
+
+        <section class="py-16">
             <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
-            
-                <form class="max-w-md mx-auto border rounded-2xl bg-gray-800 px-6 py-4 space-y-6">
-                    <h1 class="text-2xl md:text-3xl mb-8 font-semibold text-white text-center">Contact Me</h1>
-                <div class="space-y-2">
-                    <label for="Name" class="text-md font-semibold text-white">Name:</label><br>
-                    <input type="text" id="Name" class="w-full px-4 py-2 border rounded-xl bg-gray-100 hover:border-blue-600 mt-2"required>
-                </div>
+                <h1 class="text-4xl md:text-5xl mb-8 font-bold text-red-800 text-center">Princing</h1>
+        
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-1">
+        
+                    <!-- service card 1 -->
+                    <div class="bg-white p-6 rounded-xl border-gray-500 shadow-xl text-center hover:shadow-2xl transition">
+        
+                        <h3 class="text-2xl font-bold mb-6">
+                           Free
+                        </h3>
+                        <hr class=" text-gray-500 font-bold">
 
-                <div class="space-y-2">
-                    <label for="email" class="text-md font-semibold text-white">Email:</label><br>
-                    <input type="email" id="email" class="w-full px-4 py-2 border rounded-xl bg-gray-100 hover:border-blue-600 mt-2" required>
-                </div>
-                <div class="space-y-2">
-                    <label for="password" class="text-md font-semibold text-white">Password:</label><br>
-                    <input type="password" id="password" class="w-full px-4 py-2 border rounded-xl bg-gray-100 hover:border-blue-600 mt-2" required>
-                </div>
+                        <p class="text-gray-500 mt-4">Thing</p>
+                        <hr class="text-gray-500 mt-6">
 
-                <div class="flex justify-center gap-4">
-                    <button class="border rounded-xl bg-amber-600 hover:bg-amber-800 px-4 py-2 text-white text-xl font-semibold">Submit</button>
-                    <button class="border rounded-xl bg-blue-600 hover:bg-blue-800 px-4 py-2 text-white text-xl font-semibold">Reset</button>
+                        <p class="text-gray-500 mt-4">Thing</p>
+                        <hr class="text-gray-500 mt-6">
+
+                        <p class="text-gray-500 mt-4">Thing</p>
+                        <hr class="text-gray-500 mt-6">
+
+                        <p class="text-xl font-bold mt-16">£0 for one user</p>
+        
+                        <button
+                            class="bg-gradient-to-r from-pink-600 via-red-400 to-yellow-300 font-bold px-6 py-3 border rounded-full text-white mt-8 hover:underline">Sign Up</button>
+                    </div>
+        
+                    <!-- service card 2 -->
+                    <div class="bg-white p-6 rounded-xl border-gray-500 shadow-xl text-center hover:shadow-2xl transition">
+                    
+                        <h3 class="text-2xl font-bold mb-6">
+                           Basic
+                        </h3>
+                        <hr class=" text-gray-500 font-bold">
+
+                        <p class="text-gray-500 mt-4">Thing</p>
+                        <hr class="text-gray-500 mt-6">
+
+                        <p class="text-gray-500 mt-4">Thing</p>
+                        <hr class="text-gray-500 mt-6">
+
+                        <p class="text-gray-500 mt-4">Thing</p>
+                        <hr class="text-gray-500 mt-6">
+                    
+                        <p class="text-xl font-bold mt-16">£x.99 / per user</p>
+                    
+                        <button
+                            class="bg-gradient-to-r from-pink-600 via-red-400 to-yellow-300 font-bold px-6 py-3 border rounded-full text-white mt-8 hover:underline">Sign
+                            Up</button>
+                    </div>
+        
+                    <!-- service card 3 -->
+                    <div class="bg-white p-6 rounded-xl border-gray-500 shadow-xl text-center hover:shadow-2xl transition">
+                    
+                        <h3 class="text-2xl font-bold mb-6">
+                          pro
+                        </h3>
+                        <hr class=" text-gray-500 font-bold">
+
+                        <p class="text-gray-500 mt-4">Thing</p>
+                        <hr class="text-gray-500 mt-6">
+
+                        <p class="text-gray-500 mt-4">Thing</p>
+                        <hr class="text-gray-500 mt-6">
+
+                        <p class="text-gray-500 mt-4">Thing</p>
+                        <hr class="text-gray-500 mt-6">
+                    
+                        <p class="text-xl font-bold mt-16">£x.99 / per user</p>
+                    
+                        <button
+                            class="bg-gradient-to-r from-pink-600 via-red-400 to-yellow-300 font-bold px-6 py-3 border rounded-full text-white mt-8 hover:underline">Sign
+                            Up</button>
+                    </div>
+                    </div>
                 </div>
-               </form>
             </div>
+        </section>
+
+        <!-- Call to action -->
+        <section class="relative bg-gradient-to-r from-pink-600 via-red-400 to-yellow-300  pt-60 pb-16  overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
+                <div class="text-center text-white">
+                    <h1 class="text-5xl font-bold mb-8">Call to Action</h1>
+                    <p class="text-2xl font-semibold mb-4">Main Hero Message to sell yourself!</p>
+                    <button
+                        class="bg-white font-bold px-8 py-4 border rounded-full text-black mt-8 hover:underline">Action!
+                        </button>
+
+                </div>
+            </div>
+
+            <!-- SVG -->
+            <svg class="absolute top-0 left-0 w-full rotate-180" viewBox="0 0 1440 320" preserveAspectRatio="none">
+                <path fill="#ffffff" fill-opacity="1"
+                    d="M0,224L48,197.3C96,171,192,117,288,117.3C384,117,480,171,576,176C672,181,768,139,864,128C960,117,1056,139,1152,154.7C1248,171,1344,181,1392,186.7L1440,192L1440,320L0,320Z" />
+            </svg>
         </section>
     </main>
         <!--================ FOOTER ====================-->
-    <footer>
-        
+    <footer class="py-8">
+        <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-5 gap-4">
+            <div>
+               <a href="#" class="text-4xl font-bold">Landing</a>
+            </div>
+            <div class="flex flex-col space-y-2">
+                <h1 class="text-xl font-semibold mb-6">Links</h1>
+                <a href="#" class="hover:underline">FAQ</a>
+                <a href="#" class="hover:underline">Helps</a>
+                <a href="#" class="hover:underline">support</a>
+            </div>
+          
+                <div class="flex flex-col space-y-2">
+                    <h1 class="text-xl font-semibold mb-6">Legals</h1>
+                    <a href="#" class="hover:underline">Terms</a>
+                    <a href="#" class="hover:underline">privacy</a>
+                 
+                </div>
+                
+                <div class="flex flex-col space-y-2">
+                    <h1 class="text-xl font-semibold mb-6">Social</h1>
+                    <a href="#" class="hover:underline">Facebook</a>
+                    <a href="#" class="hover:underline">Twitter</a>
+                    <a href="#" class="hover:underline">Linkedin</a>
+                </div>
+
+                <div class="flex flex-col space-y-2">
+                    <h1 class="text-xl font-semibold mb-6">Company</h1>
+                    <a href="#" class="hover:underline">Officialblogs</a>
+                    <a href="#" class="hover:underline">About Us</a>
+                    <a href="#" class="hover:underline">Contact</a>
+                </div>
+        </div>
     </footer>
     <!-- script -->
     <script>
