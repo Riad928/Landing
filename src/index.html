@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 <body>
 
     <!--================= HEADER ==============-->
-    <header class="bg-gradient-to-r from-pink-600 via-red-400 to-yellow-300 shadow-lg">
-        <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 h-12 md:h-18 flex justify-between items-center gap-2 ">
+    <header class="bg-gradient-to-r from-pink-600 via-red-400 to-yellow-300 sticky top-0 z-50 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 h-12 md:h-16 flex justify-between items-center gap-2">
 
-               <!-- Logo text -->
-       
+              
+            <!-- Logo text -->
             <a href="#">
                 <h1 class="text-2xl font-bold text-white">LANDING</h1>
             </a>
@@ -23,28 +25,28 @@
                 <a href="#" class="text-md font-extrabold px-4 py-2 rounded-md hover:bg-gray-100 hover:underline">Active</a>
                 <a href="#" class="text-md font-semibold px-4 py-2 rounded-md hover:bg-gray-100 hover:underline">link</a>
                 <a href="#" class="text-md font-semibold px-4 py-2 rounded-md hover:bg-gray-100 hover:underline">link</a>   
-              <button class="bg-blue-700 text-white px-6 py-3 rounded-2xl hover:bg-blue-800 font-semibold">
+              
+                <button class="bg-blue-700 text-white px-6 py-3 rounded-2xl hover:bg-blue-800 font-semibold">
                 Action
               </button>
 
             </nav>
 
             <!-- Mobile Menu Btn -->
-            <button type="button" id="mobilebtn" class="lg:hidden px-4 py-2 border rounded-xl text-md font-semibold bg-blue-500 hover:bg-blue-700">Menu</button>
+            <button type="button" id="mobilebtn" class="lg:hidden px-4 py-2"><i class="fa fa-bars"></i></button>
         </div>
 
         <!-- Mobile Menu -->
         <div id="mobilemenu" class="hidden lg:hidden space-y-4 px-4 bg-gray-400 md:text-center">
-            <a href="#" class="block text-md font-semibold px-4 py-2 rounded-md hover:bg-gray-100 hover:underline">H</a>
-            <a href="#" class="block text-md font-semibold px-4 py-2 rounded-md hover:bg-gray-100 hover:underline">A</a>
-            <a href="#" class="block text-md font-semibold px-4 py-2 rounded-md hover:bg-gray-100 hover:underline">S</a>
-            <a href="#" class="block text-md font-semibold px-4 py-2 rounded-md hover:bg-gray-100 hover:underline">C</a>
-            <a href="#" class="block text-md font-semibold px-4 py-2 rounded-md hover:bg-gray-100 hover:underline">C</a>
+            <a href="#" class="block text-md font-semibold px-4 py-2 rounded-md hover:bg-gray-100 hover:underline">Action
+            <a href="#" class="block text-md font-semibold px-4 py-2 rounded-md hover:bg-gray-100 hover:underline">link</a>
+            <a href="#" class="block text-md font-semibold px-4 py-2 rounded-md hover:bg-gray-100 hover:underline">link</a>
+    
        
             <input type="text" placeholder="Search..."
                 class="w-full border rounded-xl bg-white text-gray-800 px-4 py-2 text-md focus:ring-blue-600 transition">
             <button type="button"
-                class="w-full border text-white rounded-xl font semibold bg-blue-700 hover:bg-blue-800 px-4 py-2 mb-2 text-lg">Search</button>
+                class="w-full border text-white rounded-xl font-semibold bg-blue-700 hover:bg-blue-800 px-4 py-2 mb-2 text-lg">Search</button>
         </div>
     </header>
     <hr class="text-white font-normal">
@@ -76,9 +78,9 @@
 
     </section>
 
-       <!--================= ABOUT SECTION ==============-->
+    <!--================= ABOUT SECTION ==============-->
     <section class="py-20">
-        <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-24">
+        <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
             <h1 class="text-4xl md:text-5xl mb-8 font-bold text-red-800 text-center">Title</h1>
             <div class="flex flex-col md:flex-row items-center gap-6">
                 <!-- hero text -->
@@ -94,11 +96,10 @@
                 <div class="md:w-1/2 flex items-center justify-center mt-6 md:mt-0">
                     <img src="/photo/hero.png" alt="work photo" class="w-[60%] h-[60%] max-w-xl border-none rounded-md object-cover">
                 </div>
-            </div>
-         
-
+            </div>     
         </div>
-       
+       </section>
+
        <!--================= SERVICE SECTION ==============-->
        <section class="py-16">
          <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
@@ -107,7 +108,7 @@
           <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             
             <!-- service card 1 -->
-            <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition">   
+            <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 easu-out md:hover:-translate-y-2">   
                 
                 <h3 class="text-xl font-bold mb-2">
                    Lorem ipsum dolor sit.
@@ -121,7 +122,7 @@
             </div>
 
             <!-- service card 2 -->
-            <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition">
+            <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 easu-out md:hover:-translate-y-2">
                 <h3 class="text-xl font-bold mb-2">
                     Lorem ipsum dolor sit.
                 </h3>
@@ -137,7 +138,7 @@
             </div>
 
             <!-- service card 3 -->
-            <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition">
+            <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 easu-out md:hover:-translate-y-2">
                 <h3 class="text-xl font-bold mb-2">
                     Lorem ipsum dolor sit.
                 </h3>
@@ -157,7 +158,6 @@
         </section>
 
         <!--================= PRICING SECTION ==============-->
-
         <section class="py-16">
             <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
                 <h1 class="text-4xl md:text-5xl mb-8 font-bold text-red-800 text-center">Princing</h1>
@@ -165,7 +165,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-1">
         
                     <!-- service card 1 -->
-                    <div class="bg-white p-6 rounded-xl border-gray-500 shadow-xl text-center hover:shadow-2xl transition">
+                    <div class="bg-white p-6 rounded-xl border-gray-500 shadow-xl text-center hover:shadow-2xl transition-all duration-300 easu-out md:hover:-translate-y-2">
         
                         <h3 class="text-2xl font-bold mb-6">
                            Free
@@ -188,7 +188,7 @@
                     </div>
         
                     <!-- service card 2 -->
-                    <div class="bg-white p-6 rounded-xl border-gray-500 shadow-xl text-center hover:shadow-2xl transition">
+                    <div class="bg-white p-6 rounded-xl border-gray-500 shadow-xl text-center hover:shadow-2xl transition-all duration-300 easu-out md:hover:-translate-y-2">
                     
                         <h3 class="text-2xl font-bold mb-6">
                            Basic
@@ -212,7 +212,7 @@
                     </div>
         
                     <!-- service card 3 -->
-                    <div class="bg-white p-6 rounded-xl border-gray-500 shadow-xl text-center hover:shadow-2xl transition">
+                    <div class="bg-white p-6 rounded-xl border-gray-500 shadow-xl text-center hover:shadow-2xl transition-all duration-300 easu-out md:hover:-translate-y-2">
                     
                         <h3 class="text-2xl font-bold mb-6">
                           pro
@@ -252,6 +252,7 @@
                 </div>
             </div>
 
+
             <!-- SVG -->
             <svg class="absolute top-0 left-0 w-full rotate-180" viewBox="0 0 1440 320" preserveAspectRatio="none">
                 <path fill="#ffffff" fill-opacity="1"
@@ -259,6 +260,7 @@
             </svg>
         </section>
     </main>
+
         <!--================ FOOTER ====================-->
     <footer class="py-8">
         <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-5 gap-4">
